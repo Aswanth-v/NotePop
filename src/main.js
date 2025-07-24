@@ -52,7 +52,7 @@ const updateingNote = (id, newContent) => {
   const targetNote = notes.find(note => note.id === id);
   if (targetNote) {
     targetNote.content = newContent;
-
+    savingingNote(notes);
   }
 };
 
