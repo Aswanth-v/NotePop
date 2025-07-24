@@ -13,7 +13,7 @@ const createNote = (id, content) => {
 
   element.classList.add('note');
   element.value = content;
-  element.placeholder = 'Empty';
+element.placeholder = 'Empty...\n2x Click Delete';
 
 
   const randomColor = noteColors[Math.floor(Math.random() * noteColors.length)];
